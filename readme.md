@@ -327,7 +327,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Developer
 
 **Your Name**  
-📧 Email: your.email@example.com  
+📧 Email: murugannadar077@gmail.com 
 🔗 GitHub: (https://github.com/nadarmurugan)  
 🔗 LinkedIn: (www.linkedin.com/in/murugannadar)
 
@@ -336,11 +336,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ## 🙏 Acknowledgments
-
-- Chart.js for data visualization
-- Tailwind CSS for responsive design
+- Html5 for structured and semantic web content.
+- Chart.js for data visualization.
+- Tailwind CSS for responsive design.
 - PHP community for backend support
-- MySQL for robust database management
+- MySQL for robust database management.
 
 ---
 
@@ -366,5 +366,6 @@ For support, email murugannadar077@gmail.com or create an issue in the repositor
 
 ---
 
-<p align="center">Made by [Jeyamurugan nadar]</p>
+<p align="center">Made by Jeyamurugan nadar</p>
+
 
