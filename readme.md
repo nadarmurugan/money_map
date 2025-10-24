@@ -1,4 +1,4 @@
-<h1 align="center"># 💰 MoneyMap – Personal Expense Tracker</h1>
+<h1 align="center"> 💰 MoneyMap – Personal Expense Tracker  💵 </h1>
 
 <p align="center"> <img src="https://img.shields.io/badge/PHP-Core_PHP-blueviolet?style=for-the-badge&logo=php" alt="PHP Version"> <img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql" alt="MySQL Version"> <img src="https://img.shields.io/badge/Tailwind_CSS-v3-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS"> <img src="https://img.shields.io/badge/Visualization-Chart.js-red?style=for-the-badge&logo=chart.js" alt="Chart.js"> </p>
 
@@ -367,6 +367,7 @@ For support, email murugannadar077@gmail.com or create an issue in the repositor
 ---
 
 <p align="center">Made by Jeyamurugan nadar</p>
+
 
 
 
