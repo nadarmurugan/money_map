@@ -293,18 +293,6 @@ The Admin Panel provides centralized control and analytics:
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots of your application here:
-> - Dashboard
-> - Transaction Page
-> - Goals Page
-> - Charts
-> - Currency Converter
-> - Admin Panel
-
----
-
 ## 🔮 Future Enhancements
 
 - 📱 **Mobile App Integration** - Develop Android/iOS versions using Flutter or React Native
@@ -340,8 +328,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Your Name**  
 📧 Email: your.email@example.com  
-🔗 GitHub: [yourusername](https://github.com/yourusername)  
-🔗 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+🔗 GitHub: (https://github.com/nadarmurugan)  
+🔗 LinkedIn: (www.linkedin.com/in/murugannadar)
+
+)
 
 ---
 
@@ -356,7 +346,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email your.email@example.com or create an issue in the repository.
+For support, email murugannadar077@gmail.com or create an issue in the repository.
 
 ---
 
@@ -376,4 +366,5 @@ For support, email your.email@example.com or create an issue in the repository.
 
 ---
 
-Made with ❤️ by [Your Name]
+<p align="center">Made by [Jeyamurugan nadar]</p>
+
