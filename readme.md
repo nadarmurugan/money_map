@@ -433,10 +433,3 @@ For support, email murugannadar077@gmail.com or create an issue in the repositor
 
 
 
-
-rewrite whole updated
-
-
-
-
-fix issues and rewrite exactly the eadme.md
