@@ -1,13 +1,8 @@
-<h1 align="center"> 💰 MoneyMap – Personal Expense Tracker 💵 </h1>
+<h1 align="center"> 💰 MoneyMap – Personal Expense Tracker  💵 </h1>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PHP-Core_PHP-blueviolet?style=for-the-badge&logo=php" alt="PHP">
-  <img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql" alt="MySQL">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-v3-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/Visualization-Chart.js-red?style=for-the-badge&logo=chart.js" alt="Chart.js">
-</p>
+<p align="center"> <img src="https://img.shields.io/badge/PHP-Core_PHP-blueviolet?style=for-the-badge&logo=php" alt="PHP Version"> <img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql" alt="MySQL Version"> <img src="https://img.shields.io/badge/Tailwind_CSS-v3-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS"> <img src="https://img.shields.io/badge/Visualization-Chart.js-red?style=for-the-badge&logo=chart.js" alt="Chart.js"> </p>
 
-**MoneyMap** is a powerful personal expense tracking web application built using **Core PHP** and **MySQL**. It enables users to record, analyze, and visualize their financial data effortlessly — with features like dynamic charts, goal tracking, notes, and secure authentication.
+**MoneyMap** is a comprehensive personal expense tracking web application that helps users monitor, analyze, and manage their finances in a systematic and secure manner. Built with Core PHP and MySQL, it provides an intuitive dashboard with dynamic charts, goal tracking, currency conversion, and automated report generation.
 
 ---
 
@@ -21,53 +16,51 @@
 - [Usage](#-usage)
 - [Modules](#-modules)
 - [Admin Panel](#-admin-panel)
-- [Deployment on ByetHost](#-deployment-on-byethost)
+- [Screenshots](#-screenshots)
 - [Future Enhancements](#-future-enhancements)
 - [Contributing](#-contributing)
 - [License](#-license)
-- [Developer](#-developer)
-- [Acknowledgments](#-acknowledgments)
-- [Support](#-support)
 
 ---
 
 ## ✨ Features
 
-### 👤 **User Features**
-- 🔐 **Secure Authentication** – Password hashing with sessions
-- 📊 **Interactive Dashboard** – Real-time summary of income, expenses, and savings
-- 📈 **Dynamic Visualization** – Bar and Donut charts (via Chart.js)
-- 💵 **Transaction Management** – Add, view, and categorize transactions
-- 🎯 **Goal Tracking** – Create financial goals and monitor progress
-- 💱 **Currency Converter** – Real-time AJAX-based currency conversions
-- 📝 **Personal Notes** – Save personal financial reminders
-- 📄 **Export Reports** – Generate reports in PDF/CSV formats
-- 📱 **Responsive Design** – Optimized for all screen sizes
+### **User Features**
+- 🔐 **Secure Authentication** - Password hashing and session-based login/signup
+- 📊 **Interactive Dashboard** - Real-time summary of income, expenses, balance, and savings
+- 📈 **Data Visualization** - Dynamic charts (Bar Chart for Income vs Expense, Donut Chart for category-wise expenses)
+- 💵 **Transaction Management** - Add, view, and categorize income/expense transactions
+- 🎯 **Goal Tracking** - Set financial goals and monitor progress
+- 💱 **Currency Converter** - Real-time AJAX-based multi-currency conversion
+- 📝 **Personal Notes** - Maintain a personal journal for financial reminders
+- 📄 **Export Reports** - Generate PDF/CSV reports of financial summaries
+- 📱 **Responsive Design** - Fully optimized for all devices
 
-### 🛡️ **Admin Features**
-- 🔒 **Admin Authentication** – Secure admin login
-- 👥 **User Management** – View, add, and manage users
-- 📊 **Analytics Dashboard** – Track global user statistics and data
-- 📥 **Export Data** – Generate complete platform reports
-- 📈 **Visual Insights** – Platform-wide financial data analytics
+### **Admin Features**
+- 🛡️ **Secure Admin Panel** - Dedicated admin login with predefined credentials
+- 👥 **User Management** - View total users and add new users
+- 📊 **Platform Analytics** - View total income, expenses, and savings goals
+- 📥 **Data Export** - Export all platform data in CSV/PDF format
+- 📈 **Statistics Dashboard** - Visualize platform-wide financial data
 
 ---
 
 ## 🛠️ Technologies Used
 
 | Category | Technology |
-|-----------|-------------|
+|----------|-----------|
 | **Frontend** | HTML5, CSS3, JavaScript, AJAX, Tailwind CSS |
 | **Backend** | PHP (Core PHP) |
 | **Database** | MySQL |
-| **Visualization** | Chart.js |
-| **Security** | Password Hashing (bcrypt), Sessions |
-| **Reports** | PDF/CSV Export Libraries |
+| **Security** | Session Management, Password Hashing (bcrypt) |
+| **Data Visualization** | Chart.js |
+| **Report Generation** | PDF/CSV Export (PHP libraries) |
 
 ---
 
 ## 📁 Project Structure
 
+```
 MoneyMap/
 ├── index.php
 ├── signup.php
@@ -81,115 +74,115 @@ MoneyMap/
 ├── notes.php
 ├── currency_converter.php
 ├── export_report.php
-│
 ├── config/
-│ └── db.php
-│
+│   └── db.php
 ├── admin/
-│ ├── admin_login.php
-│ ├── admin_dashboard.php
-│ ├── manage_users.php
-│ └── export_data.php
-│
+│   ├── admin_login.php
+│   ├── admin_dashboard.php
+│   ├── manage_users.php
+│   └── export_data.php
 ├── assets/
-│ ├── css/
-│ │ └── style.css
-│ ├── js/
-│ │ ├── chart.js
-│ │ ├── ajax.js
-│ │ └── main.js
-│ └── images/
-│ └── logo.png
-│
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   ├── chart.js
+│   │   ├── ajax.js
+│   │   └── main.js
+│   └── images/
+│       └── logo.png
 ├── includes/
-│ ├── header.php
-│ └── footer.php
-│
+│   ├── header.php
+│   └── footer.php
 ├── exports/
-│ ├── user_reports/
-│ └── admin_reports/
-│
+│   ├── user_reports/
+│   └── admin_reports/
 └── database/
-└── moneymap.sql
-
-pgsql
-Copy code
+    └── moneymap.sql
+```
 
 ---
 
 ## 🗄️ Database Design
 
-### 1. **users**
-| Field | Type | Description |
-|--------|------|-------------|
-| id | INT | Primary key |
-| fullname | VARCHAR(255) | User’s full name |
-| email | VARCHAR(255) | Unique email |
-| password | VARCHAR(255) | Hashed password |
-| created_at | DATETIME | Account creation time |
+The MoneyMap database consists of **4 main tables**:
 
-### 2. **transactions**
+### 1. **users** Table
+Stores user authentication and profile information.
+
 | Field | Type | Description |
-|--------|------|-------------|
-| id | INT | Transaction ID |
-| user_id | INT | Linked user ID |
+|-------|------|-------------|
+| id | INT (PK) | Unique user identifier |
+| fullname | VARCHAR(255) | User's full name |
+| email | VARCHAR(255) | User's email (unique) |
+| password | VARCHAR(255) | Hashed password |
+| created_at | DATETIME | Account creation timestamp |
+
+### 2. **transactions** Table
+Stores all user financial transactions.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | INT (PK) | Unique transaction ID |
+| user_id | INT (FK) | Links to users table |
 | date | DATE | Transaction date |
-| category | VARCHAR(100) | Category |
-| description | TEXT | Notes/details |
-| amount | DECIMAL(10,2) | Amount |
-| type | ENUM('income','expense') | Transaction type |
+| category | VARCHAR(100) | Transaction category |
+| description | TEXT | Transaction notes |
+| amount | DECIMAL(10,2) | Transaction amount |
+| type | ENUM('income', 'expense') | Transaction type |
 | created_at | DATETIME | Record creation time |
 
-### 3. **goals**
-| Field | Type | Description |
-|--------|------|-------------|
-| id | INT | Goal ID |
-| user_id | INT | Linked user |
-| goal_name | VARCHAR(255) | Goal title |
-| target_amount | DECIMAL(10,2) | Target value |
-| saved_amount | DECIMAL(10,2) | Current progress |
-| start_date | DATE | Start date |
-| target_date | DATE | Target date |
-| status | ENUM('active','achieved') | Status |
-| created_at | DATETIME | Created timestamp |
-| updated_at | DATETIME | Last update |
+### 3. **goals** Table
+Stores user financial goals and progress.
 
-### 4. **user_notes**
 | Field | Type | Description |
-|--------|------|-------------|
-| id | INT | Note ID |
-| user_id | INT | Linked user |
-| note_content | TEXT | Note text |
+|-------|------|-------------|
+| id | INT (PK) | Unique goal ID |
+| user_id | INT (FK) | Links to users table |
+| goal_name | VARCHAR(255) | Goal title |
+| target_amount | DECIMAL(10,2) | Target saving amount |
+| saved_amount | DECIMAL(10,2) | Current progress |
+| start_date | DATE | Goal start date |
+| target_date | DATE | Goal completion date |
+| status | ENUM('active', 'achieved') | Goal status |
 | created_at | DATETIME | Created timestamp |
+| updated_at | DATETIME | Last updated timestamp |
+
+### 4. **user_notes** Table
+Stores personal notes and reminders.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| id | INT (PK) | Unique note ID |
+| user_id | INT (FK) | Links to users table |
+| note_content | TEXT | Note content |
+| created_at | DATETIME | Note creation time |
 
 ---
 
 ## 🚀 Installation
 
 ### Prerequisites
-- PHP ≥ 8.0  
-- MySQL ≥ 8.0  
-- Apache/Nginx Web Server  
-- XAMPP/WAMP/LAMP for local setup  
+- PHP 8.0 or higher
+- MySQL 8.0 or higher
+- Apache/Nginx Web Server
+- XAMPP/WAMP/LAMP (for local development)
 
 ### Steps
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/moneymap.git
-   cd moneymap
-Import the Database
+```bash
+git clone https://github.com/yourusername/moneymap.git
+cd moneymap
+```
 
-Open phpMyAdmin
+2. **Import Database**
+- Open phpMyAdmin
+- Create a new database named `moneymap`
+- Import the `database/moneymap.sql` file
 
-Create a database named moneymap
-
-Import database/moneymap.sql
-
-Configure Database
-
-php
-Copy code
+3. **Configure Database Connection**
+Edit `config/db.php`:
+```php
 <?php
 $host = 'localhost';
 $dbname = 'moneymap';
@@ -199,67 +192,126 @@ $password = '';
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
+} catch(PDOException $e) {
     die("Connection failed: " . $e->getMessage());
 }
 ?>
-Run the App
+```
 
-Place the folder in /htdocs (XAMPP)
+4. **Start the Server**
+- For XAMPP: Place project in `htdocs` folder and start Apache & MySQL
+- Access the application at: `http://localhost/moneymap`
 
-Start Apache & MySQL
+5. **Create Admin Account** (Optional)
+- Default admin credentials can be set in `admin/admin_login.php`
+- Or create via phpMyAdmin in the `users` table with admin privileges
 
-Open: http://localhost/moneymap
+---
 
-💻 Usage
-For Users
-Register and log in
+## 💻 Usage
 
-Add and view transactions
+### For Users
 
-Create financial goals
+1. **Sign Up** - Create a new account with email and password
+2. **Login** - Access your personalized dashboard
+3. **Add Transactions** - Record income and expenses with categories
+4. **Set Goals** - Create financial goals and track progress
+5. **View Analytics** - Check charts and reports for spending insights
+6. **Export Data** - Download financial reports in PDF/CSV format
+7. **Use Currency Converter** - Convert amounts across different currencies
+8. **Maintain Notes** - Keep personal financial notes and reminders
 
-Analyze data using charts
+### For Admin
 
-Export PDF/CSV reports
+1. **Admin Login** - Access admin panel with credentials
+2. **View Statistics** - Monitor platform-wide data (users, transactions, goals)
+3. **Manage Users** - Add new users or view existing ones
+4. **Export Reports** - Download comprehensive platform data
 
-Use built-in currency converter
+---
 
-Keep private financial notes
+## 📦 Modules
 
-For Admin
-Login via /admin/admin_login.php
+### 1. **User Authentication Module**
+- Secure signup and login with password hashing
+- Email and password validation
+- Session-based authentication
 
-View platform statistics
+### 2. **Dashboard Module**
+- Personalized welcome messages
+- Real-time financial summary (Income, Expense, Balance, Savings)
+- Quick access to all features
 
-Manage users
+### 3. **Transaction Management Module**
+- Add income/expense transactions
+- Categorize transactions
+- View recent and all transactions
+- Add notes/descriptions
 
-Export complete data reports
+### 4. **Goals Module**
+- Create financial goals with target amounts and dates
+- Track progress automatically
+- Mark goals as achieved
 
-📦 Modules
-🔑 Authentication
+### 5. **Charts & Visualization Module**
+- Bar Chart: Income vs Expense comparison
+- Donut Chart: Category-wise expense distribution
+- Dynamic updates using Chart.js
 
-📊 Dashboard
+### 6. **Currency Converter Module**
+- Real-time AJAX-based conversion
+- Support for multiple currencies
+- No page reload required
 
-💵 Transaction Management
+### 7. **Personal Notes Module**
+- Create and store personal financial notes
+- Secure database storage
+- Easy access from dashboard
 
-🎯 Goal Tracker
+### 8. **Export Report Module**
+- Generate PDF reports with financial summary
+- CSV export for data analysis
+- User-specific and admin-level exports
 
-💱 Currency Converter
+### 9. **Admin Panel**
+- Secure admin authentication
+- Platform-wide statistics
+- User management capabilities
+- Comprehensive data export
 
-📝 Notes
+---
 
-📈 Visualization (Chart.js)
+## 🛡️ Admin Panel
 
-📄 Reports Export
+The Admin Panel provides centralized control and analytics:
 
-🛡️ Admin Panel
+- **Dashboard**: View total users, income, expenses, and goals
+- **User Management**: Add new users and view user list
+- **Analytics**: Platform-wide financial statistics
+- **Export**: Generate CSV/PDF reports of all data
+- **Security**: Predefined admin credentials for secure access
 
+---
+
+## 🔮 Future Enhancements
+
+- 📱 **Mobile App Integration** - Develop Android/iOS versions using Flutter or React Native
+- 🤖 **AI-based Expense Prediction** - Machine learning algorithms for spending pattern prediction
+- ☁️ **Cloud Backup Support** - Secure cloud storage for user data
+- 👨‍👩‍👧‍👦 **Multi-User Collaboration** - Family budget sharing and collaboration features
+- 🌙 **Dark Mode** - Theme customization options
+- 📧 **SMS/Email Alerts** - Notifications for goals, expenses, and monthly summaries
+- 🏦 **Bank API Integration** - Automatic transaction fetching from bank accounts
+- 📊 **Advanced Analytics** - Predictive insights and spending recommendations
+
+---
 🌐 Deployment on ByetHost
 🏗️ Overview
+
 MoneyMap runs on a LAMP stack and is successfully deployed on ByetHost, a free PHP + MySQL hosting platform.
 
 1️⃣ Create Hosting Account
+
 Sign up at ByetHost
 
 Create a domain (e.g., money-map.byethost5.com)
@@ -267,96 +319,108 @@ Create a domain (e.g., money-map.byethost5.com)
 Access your VistaPanel
 
 2️⃣ Setup MySQL Database
+
 In VistaPanel → MySQL Databases:
 
-yaml
-Copy code
 Host: sql113.byethost5.com
 Username: b5_40250472
 Database: b5_40250472_money_map
 Port: 3306
 Password: (hidden for security)
+
 3️⃣ Upload Project
+
 Upload all project files via File Manager or FTP
 
 Place them inside the /htdocs directory
 
 4️⃣ Configure Database Connection
+
 Edit config/db.php:
 
-php
-Copy code
 // --- ByetHost Configuration ---
 define('DB_HOST', 'sql113.byethost5.com');
 define('DB_USER', 'b5_40250472');
 define('DB_PASS', 'your_database_password_here'); // Hidden for security
 define('DB_NAME', 'b5_40250472_money_map');
 define('DB_PORT', '3306');
+
+
 ✅ Tip: Test connection using a small PHP file with mysqli_connect().
 
 5️⃣ Access Live Site
+
 🌐 https://money-map.byethost5.com/?i=1
 
 🔐 Admin Panel → https://money-map.byethost5.com/admin/admin_login.php
+---
 
-🔮 Future Enhancements
-📱 Mobile App (Flutter/React Native)
+## 🤝 Contributing
 
-🤖 AI-based Expense Predictions
+Contributions are welcome! Please follow these steps:
 
-☁️ Cloud Data Backup
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
 
-🌙 Dark Mode
+---
 
-📧 Email Alerts & Notifications
+## 📄 License
 
-🏦 Bank API Integration
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-📊 Advanced Financial Analytics
+---
 
-🤝 Contributing
-Fork the repository
+## 👨‍💻 Developer
 
-Create a branch (feature/YourFeature)
+**Your Name**  
+📧 Email: murugannadar077@gmail.com 
+🔗 GitHub: (https://github.com/nadarmurugan)  
+🔗 LinkedIn: (www.linkedin.com/in/murugannadar)
 
-Commit your changes
+)
 
-Push to your branch
+---
 
-Submit a Pull Request
+## 🙏 Acknowledgments
+- Html5 for structured and semantic web content.
+- Chart.js for data visualization.
+- Tailwind CSS for responsive design.
+- PHP community for backend support
+- MySQL for robust database management.
 
-📄 License
-Licensed under the MIT License — see LICENSE for details.
+---
 
-👨‍💻 Developer
-Jeymurugan Nadar
-📧 Email: murugannadar077@gmail.com
-💻 GitHub: github.com/nadarmurugan
-🔗 LinkedIn: linkedin.com/in/murugannadar
+## 📞 Support
 
-🙏 Acknowledgments
-HTML5 – Semantic web structure
+For support, email murugannadar077@gmail.com or create an issue in the repository.
 
-Tailwind CSS – Modern responsive UI
+---
 
-Chart.js – Clean visualizations
+**⭐ If you like this project, please give it a star!**
 
-PHP Community – Backend foundation
+---
 
-MySQL – Reliable data management
+### 📊 Database Statistics
 
-📞 Support
-For issues or suggestions, contact
-📧 murugannadar077@gmail.com
-or create an issue on the repository.
+| Table | Type | Rows | Storage Engine | Size |
+|-------|------|------|----------------|------|
+| users | InnoDB | 3 | InnoDB | 48.0 KiB |
+| transactions | InnoDB | 5 | InnoDB | 16.0 KiB |
+| goals | InnoDB | 1 | InnoDB | 32.0 KiB |
+| user_notes | InnoDB | 3 | InnoDB | 32.0 KiB |
+| **Total** | - | **12** | **InnoDB** | **128.0 KiB** |
 
-⭐ If you like this project, please give it a star!
-📊 Database Snapshot
-Table	Rows	Engine	Size
-users	3	InnoDB	48 KiB
-transactions	5	InnoDB	16 KiB
-goals	1	InnoDB	32 KiB
-user_notes	3	InnoDB	32 KiB
-Total	12	InnoDB	128 KiB
 
-<p align="center">💡 Built & Designed by <b>Jeymurugan Nadar</b></p> ```
+---
+
+<p align="center">Made by Jeyamurugan nadar</p>
+
+
+
+
+
+
+rewrite whole updated
