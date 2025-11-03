@@ -305,39 +305,29 @@ The Admin Panel provides centralized control and analytics:
 - 📊 **Advanced Analytics** - Predictive insights and spending recommendations
 
 ---
-🌐 Deployment on ByetHost
-🏗️ Overview
-
+## 🌐 Deployment on ByetHost
+**🏗️ Overview**
 MoneyMap runs on a LAMP stack and is successfully deployed on ByetHost, a free PHP + MySQL hosting platform.
 
-1️⃣ Create Hosting Account
-
+**1️⃣ Create Hosting Account**
 Sign up at ByetHost
-
 Create a domain (e.g., money-map.byethost5.com)
-
 Access your VistaPanel
 
-2️⃣ Setup MySQL Database
-
+**2️⃣ Setup MySQL Database**
 In VistaPanel → MySQL Databases:
-
 Host: sql113.byethost5.com
 Username: b5_40250472
 Database: b5_40250472_money_map
 Port: 3306
 Password: (hidden for security)
 
-3️⃣ Upload Project
-
+**3️⃣ Upload Project**
 Upload all project files via File Manager or FTP
-
 Place them inside the /htdocs directory
 
-4️⃣ Configure Database Connection
-
+**4️⃣ Configure Database Connection**
 Edit config/db.php:
-
 // --- ByetHost Configuration ---
 define('DB_HOST', 'sql113.byethost5.com');
 define('DB_USER', 'b5_40250472');
@@ -345,15 +335,12 @@ define('DB_PASS', 'your_database_password_here'); // Hidden for security
 define('DB_NAME', 'b5_40250472_money_map');
 define('DB_PORT', '3306');
 
-
 ✅ Tip: Test connection using a small PHP file with mysqli_connect().
 
-5️⃣ Access Live Site
-
+**5️⃣ Access Live Site**
 🌐 https://money-map.byethost5.com/?i=1
-
 🔐 Admin Panel → https://money-map.byethost5.com/admin/admin_login.php
----
+
 
 ## 🤝 Contributing
 
@@ -424,3 +411,4 @@ For support, email murugannadar077@gmail.com or create an issue in the repositor
 
 
 rewrite whole updated
+
